@@ -29,6 +29,10 @@
 #ifndef CLIENT_H_
 #define CLIENT_H_
 
+#ifndef NO_SETITIMERS_SYSCALL
+#define NO_SETITIMERS_SYSCALL
+#endif
+
 #include "common.h"
 #include "packet.h"
 
