@@ -28,6 +28,9 @@
 
 #ifndef CLIENT_H_
 #define CLIENT_H_
+#ifndef NO_TIMERS
+#define NO_TIMERS
+#endif
 
 #include "common.h"
 #include "packet.h"
